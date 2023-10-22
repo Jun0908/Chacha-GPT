@@ -1,9 +1,9 @@
 ### やりたいこと
-- Biconomy & Astar
-- Astar & Wasmを使いこなす
-- Astar zkEVM
-- 画像がIPFSにアップロードされる
-- FineTuningした学習DataをHuggingFaceにアップロードする
+- Banana SDKを挑戦する
+- Astar zkEVM (完成) ZKatanaトークンを獲得する
+- IPFSにアップロードされる　Promptと音（or）
+- FineTuning image to music HuggingFaceにアップロードする
+- Bachalu
 
 ## web3 Global Hackathon 2023
 
