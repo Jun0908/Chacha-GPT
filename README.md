@@ -31,12 +31,11 @@ Uploading an image will generate NFTs
   
 ###  Text to Image / 文字により出力した画像
 <div >
-<img width="203" alt="Gene_to_Image1" src="https://github.com/Jun0908/space_app/assets/31527310/aee2d3ef-2e15-46ca-aec2-ea49594489a1">
-<img width="199" alt="Gene_to_Image2" src="https://github.com/Jun0908/space_app/assets/31527310/9ae3e052-3821-4b19-89e1-23260d4f2b35">
+<img width="393" alt="TexttoImage" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/a19c2360-4ab7-4e4f-ad92-5b51b61b06a4">
 </div>
 
 ### Text to Music / 文字により出力した音源
-[音楽を再生する] (https://docs.google.com/presentation/d/1SFMJqgYY59PvGXzrFeguV166TxxNBXH3Gz5435CAzF8/edit?usp=sharing)
+[音楽を再生する](https://mubert.com/render/tracks/094a91f685064b0dbe1f43cb8995c063))
 
 ### How to Execute / 実行方法
 
