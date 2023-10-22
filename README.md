@@ -7,13 +7,11 @@
 
 ## web3 Global Hackathon 2023
 
-### [Team ChaCha-GPT (チーム ChaCha-GPT)]
-https://www.spaceappschallenge.org/2023/find-a-team/nasanoahs-arch-space-administration/?fbclid=IwAR3Q7sA4fMM2bqGY5ipmh-rjsoqu5XcFxcVsp9mDcP1ytQjkeoaB7SFqLrU&tab=project)
+### [Team ChaCha-GPT ](https://akindo.io/ )
 - ChaCha
 - JunK 
 
 ### Explanation / 説明
-
 - 
 
 ### To do at this time / 技術紹介
@@ -22,7 +20,8 @@ https://www.spaceappschallenge.org/2023/find-a-team/nasanoahs-arch-space-adminis
 
 - Generative Music (Image to Music)
   携帯で撮影した写真をアップロードするとMusicが生成される
-Uploading an image will generate NFTs
+
+  Uploading an image will generate NFTs
 
 
  [Slide / スライド](https://docs.google.com/presentation/d/1SFMJqgYY59PvGXzrFeguV166TxxNBXH3Gz5435CAzF8/edit?usp=sharing)
