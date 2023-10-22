@@ -1,10 +1,14 @@
 ### やりたいこと
+- Biconomy & Astar
+- Astar & Wasmを使いこなす
+- Astar zkEVM
+- 画像がIPFSにアップロードされる
+- FineTuningした学習DataをHuggingFaceにアップロードする
 
 ## web3 Global Hackathon 2023
 
 ### [Team ChaCha-GPT (チーム ChaCha-GPT)]
 https://www.spaceappschallenge.org/2023/find-a-team/nasanoahs-arch-space-administration/?fbclid=IwAR3Q7sA4fMM2bqGY5ipmh-rjsoqu5XcFxcVsp9mDcP1ytQjkeoaB7SFqLrU&tab=project)
-
 - ChaCha
 - JunK 
 
@@ -13,10 +17,8 @@ https://www.spaceappschallenge.org/2023/find-a-team/nasanoahs-arch-space-adminis
 - 
 
 ### To do at this time / 技術紹介
-- ERC 4337
+- ERC 4337 & Biconomy 
 
-- ChainLink
- 天気やロケーションの情報を抽出
 
 - Generative Music (Image to Music)
   携帯で撮影した写真をアップロードするとMusicが生成される
@@ -35,7 +37,7 @@ Uploading an image will generate NFTs
 </div>
 
 ### Text to Music / 文字により出力した音源
-[音楽を再生する](https://mubert.com/render/tracks/094a91f685064b0dbe1f43cb8995c063))
+[音楽を再生する](https://mubert.com/render/tracks/094a91f685064b0dbe1f43cb8995c063)
 
 ### How to Execute / 実行方法
 
