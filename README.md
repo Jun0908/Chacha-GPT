@@ -1,9 +1,22 @@
 ### やりたいこと
 - Banana SDKを挑戦する
-- Astar zkEVM (完成) ZKatanaトークンを獲得する
-- IPFSにアップロードされる　Promptと音（or）
+- https://note.com/standenglish/n/nf9e9d39b8f7f
+
+- Astar zkEVM (完成) ZKatanaトークンを獲得する （今週更新される）
+- https://docs.astar.network/docs/build/zkEVM/
+
 - FineTuning image to music HuggingFaceにアップロードする
-- Bachalu
+- https://zenn.dev/ihpolyphe/articles/4c195a6fa343d7
+
+- IPFSにアップロードされる　Promptと音（or）
+
+- Stable diffusion 
+- https://gigazine.net/news/20221216-stable-diffusion-riffusion-music/
+
+- Bacalhau
+- https://docs.bacalhau.org/examples/model-training/Stable-Diffusion-Dreambooth/
+
+- https://github.com/dappuniversity/music_nfts
 
 ## web3 Global Hackathon 2023
 
