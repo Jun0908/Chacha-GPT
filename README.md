@@ -1,14 +1,12 @@
 ### やりたいこと
-- Banana SDKを挑戦する
+- Banana SDKを挑戦する (完)
 - https://note.com/standenglish/n/nf9e9d39b8f7f
 
-- Astar zkEVM (完成) ZKatanaトークンを獲得する （今週更新される）
+- Astar zkEVM (完成) ZKatanaトークンを獲得する （完成）
 - https://docs.astar.network/docs/build/zkEVM/
 
 - FineTuning image to music HuggingFaceにアップロードする
 - https://zenn.dev/ihpolyphe/articles/4c195a6fa343d7
-
-- IPFSにアップロードされる　Promptと音（or）
 
 - Stable diffusion 
 - https://gigazine.net/news/20221216-stable-diffusion-riffusion-music/
@@ -25,24 +23,7 @@
 - JunK 
 
 ### Explanation / 説明
-- 
 
-### To do at this time / 技術紹介
-- ERC 4337 & Biconomy 
-
-
-- Generative Music (Image to Music)
-  携帯で撮影した写真をアップロードするとMusicが生成される
-
-  Uploading an image will generate NFTs
-
-
- [Slide / スライド](https://docs.google.com/presentation/d/1SFMJqgYY59PvGXzrFeguV166TxxNBXH3Gz5435CAzF8/edit?usp=sharing)
-
- [Movie in Loom/ 紹介動画 Loom](https://www.loom.com/share/eeaaa68e8877401c8e24b800f2289f13?sid=f27caf84-7cdc-4a48-bf1b-6cd09654700a)
-
- [Web アプリ / NFT Generation](https://astar-edition-drop.vercel.app/))
-  
 ###  Text to Image / 文字により出力した画像
 <div >
 <img width="393" alt="TexttoImage" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/a19c2360-4ab7-4e4f-ad92-5b51b61b06a4">
@@ -50,6 +31,31 @@
 
 ### Text to Music / 文字により出力した音源
 [音楽を再生する](https://mubert.com/render/tracks/094a91f685064b0dbe1f43cb8995c063)
+
+### ◎TechStack
+
+| Title                          |                                                                                                                                                                                                                 詳細 |
+| :----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Token Bound Account (ERC6551)  |                                      ERC6551 は NFT(ERC721)を従来の Wallet のような役割として活用できる新しい企画です。今回はエンドユーザーが Wallet を持っていなくても、Wallet 機能を活用できるように実装しました。 |
+| Smart Contract Wallet(ERC4337) |                                           ERC6551 をエンドユーザーがガス代負担なし、かつ web3 のリテラシーがなくてもセキュアな Wallet 管理を実現するために ERC4337 を活用した Smart Contract Wallet を実装しました。 |
+| PatchWallet/LitProtocol        | エンドユーザーが Wallet を持つ前に、事業者がメールアドレスに紐づいた Wallet アドレスを特定すること、そしてエンドユーザーがメール認証だけで Wallet を持てるようにするために、PatchWallet/LitProtocol を活用しました。 |
+
+**実装状況**
+
+| Title          |                                                              URL |
+| :------------- | ---------------------------------------------------------------: |
+| ピッチ動画     |                                     https://youtu.be/XpNz4fmwth4 |
+| デモ動画       |                                    https://youtu.be/zmENJzrxZRw |
+| デモサイト     |                                 https://tabbit-front.vercel.app/ |
+| コントラクト   | [tabbit-contracts](https://github.com/tabbitme/tabbit-contracts) |
+| フロントエンド |         [tabbit-front](https://github.com/tabbitme/tabbit-front) |
+
+**Astar コントラクト**
+
+| contract                   |                                                                                                                   contract address |
+| :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
+| ERC721 - TabbitPass        | [0xFe055AeD04B5b1aBbD5ea7b4DF329a2B4E24A21A](https://blockscout.com/astar/address/0xFe055AeD04B5b1aBbD5ea7b4DF329a2B4E24A21A#code) |
+| ERC1155 - TabbitTicket     | [0xC74399208F6Ea056d69Ad09a33eB25eAf8493a2b](https://blockscout.com/astar/address/0xC74399208F6Ea056d69Ad09a33eB25eAf8493a2b#code) |
 
 ### How to Execute / 実行方法
 
@@ -78,18 +84,3 @@ yarn install
 # Start the development server
 yarn start
 ```
-
-### File Organization / ファイル構成
-
-- stable_diffusion_in_Colab.ipynb
-  - An executable file that performs image generation on Colab.
-  - Colabで画像生成を行う実行ファイル。
-- Mubert_Text_to_Music.ipynb
-  - An executable file that performs music generation on Colab.
-  - Colabで音楽生成を行う実行ファイル。。
-- NFT-Drop-Astar-Edition
-  - Folder containing the Output image described above.
-  - 画像のNFTを作成する実行ファイル
-- sample_output_images
-  - Folder containing the Output image described above.
-  - 上述の Output 画像が入ったフォルダ
