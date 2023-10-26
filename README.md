@@ -18,10 +18,6 @@
 
 ## web3 Global Hackathon 2023
 
-### [Team ChaCha-GPT ](https://akindo.io/ )
-- ChaCha
-- JunK 
-
 ### Explanation / 説明
 
 ###  Text to Image / 文字により出力した画像
@@ -50,24 +46,14 @@
 | コントラクト   | [tabbit-contracts](https://github.com/tabbitme/tabbit-contracts) |
 | フロントエンド |         [tabbit-front](https://github.com/tabbitme/tabbit-front) |
 
-**Astar コントラクト**
+**コントラクト**
 
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
-| ERC721 - TabbitPass        | [0xFe055AeD04B5b1aBbD5ea7b4DF329a2B4E24A21A](https://blockscout.com/astar/address/0xFe055AeD04B5b1aBbD5ea7b4DF329a2B4E24A21A#code) |
-| ERC1155 - TabbitTicket     | [0xC74399208F6Ea056d69Ad09a33eB25eAf8493a2b](https://blockscout.com/astar/address/0xC74399208F6Ea056d69Ad09a33eB25eAf8493a2b#code) |
+| Shibuya Testnet        | [0xFe055AeD04B5b1aBbD5ea7b4DF329a2B4E24A21A](https://blockscout.com/astar/address/0xFe055AeD04B5b1aBbD5ea7b4DF329a2B4E24A21A#code) |
+| zkEVM Testnet    | [0xC74399208F6Ea056d69Ad09a33eB25eAf8493a2b](https://blockscout.com/astar/address/0xC74399208F6Ea056d69Ad09a33eB25eAf8493a2b#code) |
 
 ### How to Execute / 実行方法
-
-- On Colab
-
-  Stable_Diffusion_in_Colab
-  - Open [stable_diffusion_in_Colab.ipynb on Colab]
-  
-  Mubert_Text_to_Music
-  - Open [Mubert_Text_to_Music.ipynb]
- 
-- On Local 
 
 ```
 NFT-Drop-Astar-Edition
