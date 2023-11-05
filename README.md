@@ -52,8 +52,8 @@
 
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
-| Shibuya Testnet        | [0xFe055AeD04B5b1aBbD5ea7b4DF329a2B4E24A21A](https://blockscout.com/astar/address/0xFe055AeD04B5b1aBbD5ea7b4DF329a2B4E24A21A#code) |
-| zkEVM Testnet    | [0xC74399208F6Ea056d69Ad09a33eB25eAf8493a2b](https://blockscout.com/astar/address/0xC74399208F6Ea056d69Ad09a33eB25eAf8493a2b#code) |
+| Shibuya Testnet        | [0x6caDAc1546075162EA91ba726AaefCEA86a91493](https://blockscout.com/astar/address/0xFe055AeD04B5b1aBbD5ea7b4DF329a2B4E24A21A#code) |
+| zKatana Testnet    | [0x7337Ea73Ff4A6127b305D030884F4c0800648643](https://blockscout.com/astar/address/0xC74399208F6Ea056d69Ad09a33eB25eAf8493a2b#code) |
 
 ### How to Execute / 実行方法
 
