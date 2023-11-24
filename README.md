@@ -49,10 +49,10 @@ ChaChaChaは、車での移動が楽しくなり、人々が集まることが�
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
 | ピッチ動画     |                                     [https://youtu.be/XpNz4fmwth4](https://www.youtube.com/watch?v=-fRZuS5v80M) |
-| ピッチ資料     |                                     [chachacha-presentation](https://www.canva.com/design/DAF0lv7bab0/lUwJe3yP5UTyCEDb0UN5nA/edit?utm_content=DAF0lv7bab0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))  |
+| ピッチ資料     |                                     [chachacha-presentation](https://www.canva.com/design/DAF0lv7bab0/lUwJe3yP5UTyCEDb0UN5nA/edit?utm_content=DAF0lv7bab0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  |
 | デモ動画       |                                    https://youtu.be/zmENJzrxZRw |
 | デモサイト     |                                 https://tabbit-front.vercel.app/ |
-| コントラクト   | [chachacha-contracts]([https://github.com/Jun0908/Chacha-GPT/tree/main/hardhat]) |
+| コントラクト   | [chachacha-contracts](https://github.com/Jun0908/Chacha-GPT/tree/main/hardhat) |
 | フロントエンド |         [chachacha-front](https://github.com/Jun0908/Chacha-GPT/tree/main/next-app) |
 
 **コントラクト**
