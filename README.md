@@ -68,5 +68,5 @@ MetaMaskのWallterを持っていなくても、一般ユーザーが利用で�
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
 | Shibuya Testnet        | [0xe954ea332AB52700C7291B548c93ABA22fCd8409](https://shibuya.subscan.io/account/0xe954ea332AB52700C7291B548c93ABA22fCd8409) |
-| zKatana Testnet    | [0x6E9b1850C671C488937Cb555A4fe0334d472Ac41](https://blockscout.com/astar/address/0xC74399208F6Ea056d69Ad09a33eB25eAf8493a2b#code) |
+| zKatana Testnet    | [0x6E9b1850C671C488937Cb555A4fe0334d472Ac41](https://zkatana.blockscout.com/address/0x6E9b1850C671C488937Cb555A4fe0334d472Ac41) |
 
