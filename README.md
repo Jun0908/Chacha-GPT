@@ -32,9 +32,11 @@ ChaChaChaは、車での移動が楽しくなり、人々が集まることが�
 ### ▶︎技術的なチャレンジ
 **No Cloud All dApps**　　  
 **分散型ストレージのIPFSと分散型コンピューティングのBacalhau**を活用し、Cloud System（AWS、GCP、Azure）を使用せずにGenerative AIを実装しました。
+<img width="995" alt="スクリーンショット 2023-11-19 15 16 27" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/1245761b-7f1d-4a83-b505-44e0102a3a07">
 
 **音楽データをOnChainに保存**　　  
 音楽Wavデータをスペクトラムの画像データに変換し、Numpy配列、バイト列、ヘキサデシマル文字列を用いて音楽データをオンチェーンに保存する機能を実装しました。
+<img width="876" alt="スクリーンショット 2023-11-19 15 16 53" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/af792ae3-03d9-40b2-b2b3-bca719fd653f">
 
 ### ◎TechStack
 
