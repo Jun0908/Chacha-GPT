@@ -1,4 +1,4 @@
-## web3 Global Hackathon 2023
+## Web3 Global Hackathon 2023
 
 ### ▶︎概要
 ChaChaChaは、車での移動が楽しくなり、人々が集まることができる場所を創出する、「音楽生成プロトコル・音楽NFT保存システム」を提供するWeb3版サービスです。
@@ -49,10 +49,11 @@ ChaChaChaは、車での移動が楽しくなり、人々が集まることが�
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
 | ピッチ動画     |                                     https://youtu.be/XpNz4fmwth4 |
+| ピッチ資料     |                                     https://youtu.be/XpNz4fmwth4 |
 | デモ動画       |                                    https://youtu.be/zmENJzrxZRw |
 | デモサイト     |                                 https://tabbit-front.vercel.app/ |
-| コントラクト   | [tabbit-contracts](https://github.com/tabbitme/tabbit-contracts) |
-| フロントエンド |         [tabbit-front](https://github.com/tabbitme/tabbit-front) |
+| コントラクト   | [chachacha-contracts](https://github.com/Jun0908/Chacha-GPT/tabbit-contracts) |
+| フロントエンド |         [chachacha-front](https://github.com/Jun0908/Chacha-GPT/tabbit-front) |
 
 **コントラクト**
 
