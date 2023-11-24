@@ -1,4 +1,3 @@
-
 ## web3 Global Hackathon 2023
 
 ### Explanation / 説明
