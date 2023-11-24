@@ -49,17 +49,17 @@ MetaMaskのWallterを持っていなくても、一般ユーザーが利用で�
 
 | Title                          |                                                                                                                                                                                                                 詳細 |
 | :----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Smart Contract Wallet(ERC4337) |                                           ERC6551 をエンドユーザーがガス代負担なし、かつ web3 のリテラシーがなくてもセキュアな Wallet 管理を実現するために ERC4337 を活用した Smart Contract Wallet を実装しました。 |
-| Banana SDK              | 　　　　　　　　　　　　　　　　　　　　　　　Astar Network & shibuya Testnetに、RainbowKitでアクセスできるようにBanana SDK  を利用しました。 |
+| Smart Contract Wallet(ERC4337) | ERC6551 をエンドユーザーがガス代負担なし、かつ web3 のリテラシーがなくてもセキュアな Wallet 管理を実現するために ERC4337 を活用した Smart Contract Wallet を実装しました。 |
+| Banana SDK                     | Astar Network & shibuya Testnetに、RainbowKitでアクセスできるようにBanana SDK  を利用しました。 |
 
 **実装状況**
 
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
 | ピッチ動画     |                                     [https://youtu.be/XpNz4fmwth4](https://www.youtube.com/watch?v=-fRZuS5v80M) |
-| ピッチ資料     |                                     [chachacha-presentation](https://www.canva.com/design/DAF0lv7bab0/lUwJe3yP5UTyCEDb0UN5nA/edit?utm_content=DAF0lv7bab0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  |
-| デモ動画       |                                    https://youtu.be/zmENJzrxZRw |
-| デモサイト     |                                 https://tabbit-front.vercel.app/ |
+| デモ動画       |                                      https://youtu.be/zmENJzrxZRw|
+|  ピッチ資料    |   [chachacha-presentation](https://www.canva.com/design/DAF0lv7bab0/lUwJe3yP5UTyCEDb0UN5nA/edit?utm_content=DAF0lv7bab0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
+| デモサイト     |                                 https://tabbit-front.vercel.app/ | 
 | コントラクト   | [chachacha-contracts](https://github.com/Jun0908/Chacha-GPT/tree/main/hardhat) |
 | フロントエンド |         [chachacha-front](https://github.com/Jun0908/Chacha-GPT/tree/main/next-app) |
 
