@@ -5,10 +5,10 @@ ChaChaChaは、車での移動が楽しくなり、人々が集まることが�
 
 **Text to Image / 文字により出力した画像**　　
 <div >
-<img width="100" alt="TexttoImage" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/a19c2360-4ab7-4e4f-ad92-5b51b61b06a4">
+<img width="200" alt="TexttoImage" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/a19c2360-4ab7-4e4f-ad92-5b51b61b06a4">
 </div>
 
-**Text to Music / 文字により出力した音源**　　
+**Text to Music / 文字により出力した音源**　　  
 [音楽を再生する](https://mubert.com/render/tracks/094a91f685064b0dbe1f43cb8995c063)
 
 ### ▶︎課題
@@ -31,7 +31,7 @@ ChaChaChaは、車での移動が楽しくなり、人々が集まることが�
 
 ### ▶︎技術的なチャレンジ
 **No Cloud All dApps**　　
-分散型ストレージのIPFSと分散型コンピューティングのBacalhauを活用し、Cloud System（AWS、GCP、Azure）を使用せずにGenerative AIを実装しました。
+**分散型ストレージのIPFSと分散型コンピューティングのBacalhau**を活用し、Cloud System（AWS、GCP、Azure）を使用せずにGenerative AIを実装しました。
 
 **音楽データをOnChainに保存**　　
 音楽Wavデータをスペクトラムの画像データに変換し、Numpy配列、バイト列、ヘキサデシマル文字列を用いて音楽データをオンチェーンに保存する機能を実装しました。
