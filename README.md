@@ -5,7 +5,7 @@ ChaChaChaは、車での移動が楽しくなり、人々が集まることが�
 
 **Text to Image / 文字により出力した画像**　　
 <div >
-<img width="5" alt="TexttoImage" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/a19c2360-4ab7-4e4f-ad92-5b51b61b06a4">
+<img width="100" alt="TexttoImage" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/a19c2360-4ab7-4e4f-ad92-5b51b61b06a4">
 </div>
 
 **Text to Music / 文字により出力した音源**　　
