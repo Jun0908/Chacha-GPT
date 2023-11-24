@@ -49,9 +49,8 @@ MetaMaskのWallterを持っていなくても、一般ユーザーが利用で�
 
 | Title                          |                                                                                                                                                                                                                 詳細 |
 | :----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Token Bound Account (ERC6551)  |                                      ERC6551 は NFT(ERC721)を従来の Wallet のような役割として活用できる新しい企画です。今回はエンドユーザーが Wallet を持っていなくても、Wallet 機能を活用できるように実装しました。 |
 | Smart Contract Wallet(ERC4337) |                                           ERC6551 をエンドユーザーがガス代負担なし、かつ web3 のリテラシーがなくてもセキュアな Wallet 管理を実現するために ERC4337 を活用した Smart Contract Wallet を実装しました。 |
-| PatchWallet/LitProtocol        | エンドユーザーが Wallet を持つ前に、事業者がメールアドレスに紐づいた Wallet アドレスを特定すること、そしてエンドユーザーがメール認証だけで Wallet を持てるようにするために、PatchWallet/LitProtocol を活用しました。 |
+| Banana SDK              | 　　　　　　　　　　　　　　　　　　　　　　　Astar Network & shibuya Testnetに、RainbowKitでアクセスできるようにBanana SDK  を利用しました。 |
 
 **実装状況**
 
@@ -68,6 +67,6 @@ MetaMaskのWallterを持っていなくても、一般ユーザーが利用で�
 
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
-| Shibuya Testnet        | [0xe954ea332AB52700C7291B548c93ABA22fCd8409](https://blockscout.com/astar/address/0xFe055AeD04B5b1aBbD5ea7b4DF329a2B4E24A21A#code) |
+| Shibuya Testnet        | [0xe954ea332AB52700C7291B548c93ABA22fCd8409](https://shibuya.subscan.io/account/0xe954ea332AB52700C7291B548c93ABA22fCd8409) |
 | zKatana Testnet    | [0x6E9b1850C671C488937Cb555A4fe0334d472Ac41](https://blockscout.com/astar/address/0xC74399208F6Ea056d69Ad09a33eB25eAf8493a2b#code) |
 
