@@ -1,76 +1,38 @@
-import React, { useState, useEffect } from "react";
-import { Flex } from "@chakra-ui/react";
+import React from "react";
+import { Flex, Link, Box, Text, Image } from "@chakra-ui/react";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { Banana, Chains } from "@rize-labs/banana-wallet-sdk";
-
+import NextLink from "next/link";
 
 function Navbar() {
-  useEffect(() => {
-    getBananaInstance();
-    }, []);
-
-    const [isLoading, setIsLoading] = useState(false);
-    const [walletInstance, setWalletInstance] = useState(null);
-    const [output, setOutput] = useState("Welcome to Banana Demo");
-    const [isConnected, setIsConnected] = useState(false);
-    const [walletAddress, setWalletAddress] = useState("");
-    const [bananaSdkInstance, setBananSdkInstance] = useState(null);
-
-    const getBananaInstance = () => {
-      const bananaInstance = new Banana(Chains.shibuyaTestnet);
-      setBananSdkInstance(bananaInstance);
-    };
-
-    const createWallet = async () => {
-      setIsLoading(true);
-      const wallet = await bananaSdkInstance.createWallet();
-      setWalletInstance(wallet);
-      const address = await wallet.getAddress();
-      setWalletAddress(address);
-      setOutput("Wallet Address: " + address);
-      setIsLoading(false);
-      setIsConnected(true);
-    };
-  
-    const connectWallet = async () => {
-      const walletName = bananaSdkInstance.getWalletName();
-      if (walletName) {
-        setIsLoading(true);
-        const wallet = await bananaSdkInstance.connectWallet(walletName);
-        setWalletInstance(wallet);
-        const address = await wallet.getAddress();
-        setWalletAddress(address);
-        setOutput("Wallet Address: " + address);
-        setIsLoading(false);
-        setIsConnected(true);
-      } else {
-        setIsLoading(false);
-        alert("You don't have wallet created!");
-      }
-    };
-  
   return (
-    <div className="App">
-    <h1>Banana SDK Demo</h1>
+    <>
+      <Flex px={"4em"} py={"1.5em"} alignItems="center" justifyContent="space-between">
+        {/* ロゴ */}
+        <Box display="flex" alignItems="center">
+          <Image src="logo.png" alt="Logo" width={50} height={50} />
+          <Text ml={3} fontSize="xl" fontWeight="bold">ChaChaCha</Text>
+        </Box>
 
-    {!isConnected && 
-    <Flex px={"4em"} py={"1.5em"} justifyContent={"flex-end"}>
-    <ConnectButton /></Flex>}
+        {/* リンク */}
+        <Box>
+          <NextLink href="/" passHref>
+            <Link mr={4}>Home</Link>
+          </NextLink>
+          <NextLink href="/UploadIpfs" passHref>
+            <Link mr={4}>UploadIpfs</Link>
+          </NextLink>
+          <NextLink href="/MusicGen" passHref>
+            <Link mr={4}>MusicGen</Link>
+          </NextLink>
+          <NextLink href="/Mint" passHref>
+            <Link mr={4}>MusicMint</Link>
+          </NextLink> 
+        </Box>
 
-    {walletAddress && <p> Wallet Address: {walletAddress}</p>}
-
-    {!isConnected && (
-      <button className="btn" onClick={createWallet}>
-        Create Wallet
-      </button>
-    )}
-
-    {!isConnected && (
-      <button className="btn" onClick={connectWallet}>
-        Connect Wallet
-      </button>
-    )}
-  </div>  
+        {/* Connectボタン */}
+        <ConnectButton />
+      </Flex>
+    </>
   );
 }
 

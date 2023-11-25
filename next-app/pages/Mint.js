@@ -1,5 +1,5 @@
 import { ethers } from 'ethers';
-import MusicNFTABI from "../../contracts/ABI/MusicNFT.json";
+import MusicNFTABI from "../contracts/ABI/MusicNFT.json";
 import { useState } from 'react';
 
 async function fetchSpectrogramData(cid) {
@@ -85,7 +85,7 @@ function Mint() {
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       await provider.send('eth_requestAccounts', []);
       const signer = provider.getSigner();
-      const contractAddress = '0xB0e993AC8adF5a418F80dc6C4204D3ebB69384Ff';
+      const contractAddress = '0x3495D40A37996684b2CF68B6c6dF812D5998456e';
       const contractABI = MusicNFTABI.abi;
       const contract = new ethers.Contract(contractAddress, contractABI, signer);
       const transaction = await contract.mintMusicNFT(name, cid, musicJson);

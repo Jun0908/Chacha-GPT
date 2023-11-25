@@ -1,12 +1,10 @@
 import Header from "./Header";
 import React, { useEffect } from "react";
 import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+//import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-//import Ipfs from "./components/Ipfs";
-//import MusicGen from "./components/MusicGen";
-import Mint from "./components/Mint";
-//import UploadIpfs from "./components/UploadIpfs";
+import Explana from "./Explana"
+
 import { useToast } from "@chakra-ui/react";
 
 export default function Home() {
@@ -25,9 +23,8 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Navbar />
       <Hero />
-      <Mint />
+      <Explana />
       <Footer />
     </>
   );
