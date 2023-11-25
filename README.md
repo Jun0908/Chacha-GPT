@@ -57,7 +57,7 @@ MetaMaskのWallterを持っていなくても、一般ユーザーが利用で�
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
 | ピッチ動画     |                                     [https://youtu.be/XpNz4fmwth4](https://www.youtube.com/watch?v=-fRZuS5v80M) |
-| デモ動画       |                                      https://youtu.be/zmENJzrxZRw|
+| デモ動画       |                                      [https://youtu.be/zmENJzrxZRw](https://www.youtube.com/watch?v=0oHdkLbcIxo)|
 |  ピッチ資料    |   [chachacha-presentation](https://www.canva.com/design/DAF0lv7bab0/lUwJe3yP5UTyCEDb0UN5nA/edit?utm_content=DAF0lv7bab0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
 | デモサイト     |                                 [chachacha-demo](https://next-app-umber-kappa.vercel.app/) | 
 | コントラクト   | [chachacha-contracts](https://github.com/Jun0908/Chacha-GPT/tree/main/hardhat) |
