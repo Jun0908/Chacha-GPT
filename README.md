@@ -26,7 +26,7 @@ Generative AI is implemented without using cloud systems like AWS, GCP, or Azure
 
 **On-chain Music Data Storage**　　  
 We converted music WAV data to spectrogram images and used Numpy arrays, byte sequences, and hexadecimal strings to store the music data on-chain.
-<img width="876" alt="スクリーンショット 2023-11-19 15 16 53" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/af792ae3-03d9-40b2-b2b3-bca719fd653f">
+<img width="896" alt="スクリーンショット 2024-05-11 16 51 35" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/18c17208-bc79-4123-9fe6-4b4140e75731">
 
 ### ▶︎Creativity 
 **Open Generative AI Platform**        
