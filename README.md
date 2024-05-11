@@ -3,12 +3,12 @@
 ### ▶︎Overview
 ChaChaCha is a Web3 service offering a "music generation protocol and music NFT storage system" to create spaces that make travel enjoyable and bring people together.
 
-**Text to Image / 文字により出力した画像**　　
+**Text to Image **　　
 <div >
 <img width="200" alt="TexttoImage" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/a19c2360-4ab7-4e4f-ad92-5b51b61b06a4">
 </div>
 
-**Text to Music / 文字により出力した音源**　　  
+**Text to Music **　　  
 [音楽を再生する](https://mubert.com/render/tracks/094a91f685064b0dbe1f43cb8995c063)
 
 ### ▶︎Problems
@@ -39,22 +39,23 @@ All information about the generative AI model and image-to-music generation is p
 
 | Title                          |                                                                                                                                                                                                                 詳細 |
 | :----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Smart Contract Wallet(ERC4337) | ERC6551 をエンドユーザーがガス代負担なし、かつ web3 のリテラシーがなくてもセキュアな Wallet 管理を実現するために ERC4337 を活用した Smart Contract Wallet を実装しました。 |
-| Banana SDK                     | Astar Network & shibuya Testnetに、RainbowKitでアクセスできるようにBanana SDK  を利用しました。 |
+| Smart Contract Wallet(ERC4337) | We implemented a Smart Contract Wallet utilizing ERC4337 to enable end users to manage ERC6551 securely without incurring gas fees or requiring Web3 literacy. |
+| Banana SDK                     | 
+We used the Banana SDK to enable access to the Astar Network and Shibuya Testnet via RainbowKit. |
 
-**実装状況**
+**Implementation Status**
 
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
-| ピッチ動画     |                                     [https://youtu.be/XpNz4fmwth4](https://www.youtube.com/watch?v=-fRZuS5v80M) |
-| デモ動画       |                                      [https://youtu.be/zmENJzrxZRw](https://www.youtube.com/watch?v=0oHdkLbcIxo)|
-|  ピッチ資料    |   [chachacha-presentation](https://www.canva.com/design/DAF0lv7bab0/lUwJe3yP5UTyCEDb0UN5nA/edit?utm_content=DAF0lv7bab0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
-| デモサイト     |                                 [chachacha-demo](https://next-app-umber-kappa.vercel.app/) | 
-| コントラクト   | [chachacha-contracts](https://github.com/Jun0908/Chacha-GPT/tree/main/hardhat) |
-| フロントエンド |         [chachacha-front](https://github.com/Jun0908/Chacha-GPT/tree/main/next-app) |
-| ギャラリー　　 |         [chachacha-garally](https://3d-image-to-music.vercel.app/) |
+| Pitch Movie     |                                     [https://youtu.be/XpNz4fmwth4](https://www.youtube.com/watch?v=-fRZuS5v80M) |
+| Demo Movie      |                                      [https://youtu.be/zmENJzrxZRw](https://www.youtube.com/watch?v=0oHdkLbcIxo)|
+| Pitch Doc    |   [chachacha-presentation](https://www.canva.com/design/DAF0lv7bab0/lUwJe3yP5UTyCEDb0UN5nA/edit?utm_content=DAF0lv7bab0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
+| Demo Site     |                                 [chachacha-demo](https://next-app-umber-kappa.vercel.app/) | 
+| Contract   | [chachacha-contracts](https://github.com/Jun0908/Chacha-GPT/tree/main/hardhat) |
+| Frontend |         [chachacha-front](https://github.com/Jun0908/Chacha-GPT/tree/main/next-app) |
+| Garally　　 |         [chachacha-garally](https://3d-image-to-music.vercel.app/) |
 
-**コントラクト**
+**Contract**
 
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
