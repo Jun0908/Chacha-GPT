@@ -1,7 +1,7 @@
 ## WaveHack Global 2024
 
 ### ▶︎Overview
-ChaChaCha is a Web3 service offering a "music generation protocol and music NFT storage system" to create spaces that make travel enjoyable and bring people together.
+ChaCha-GPT is a Web3 service offering a "music generation protocol and music NFT storage system" to create spaces that make travel enjoyable and bring people together.
 
 **Text to Image **　　
 <div >
@@ -34,14 +34,6 @@ We designed a mechanism that allows general users to use the system even without
 
 **Open Generative AI Platform**        
 All information about the generative AI model and image-to-music generation is publicly available. This allows users to share conditions for generation and utilize the system for analysis or research purposes.  
-
-### ◎TechStack
-
-| Title                          |                                                                                                                                                                                                                 詳細 |
-| :----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Smart Contract Wallet(ERC4337) | We implemented a Smart Contract Wallet utilizing ERC4337 to enable end users to manage ERC6551 securely without incurring gas fees or requiring Web3 literacy. |
-| Banana SDK                     | 
-We used the Banana SDK to enable access to the Astar Network and Shibuya Testnet via RainbowKit. |
 
 **Implementation Status**
 
