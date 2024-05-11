@@ -1,7 +1,7 @@
-## Web3 Global Hackathon 2023
+## WaveHack Global 2024
 
-### ▶︎概要
-ChaChaChaは、車での移動が楽しくなり、人々が集まることができる場所を創出する、「音楽生成プロトコル・音楽NFT保存システム」を提供するWeb3版サービスです。
+### ▶︎Overview
+ChaChaCha is a Web3 service offering a "music generation protocol and music NFT storage system" to create spaces that make travel enjoyable and bring people together.
 
 **Text to Image / 文字により出力した画像**　　
 <div >
@@ -11,39 +11,29 @@ ChaChaChaは、車での移動が楽しくなり、人々が集まることが�
 **Text to Music / 文字により出力した音源**　　  
 [音楽を再生する](https://mubert.com/render/tracks/094a91f685064b0dbe1f43cb8995c063)
 
-### ▶︎課題
-**Mazda**    
-「移動の感動を妨げるものが多い」。この問題は、渋滞、居眠り運転、マンネリ化した移動、長距離移動、退屈な道中など、多岐にわたります。Web3を活用して、自動車業界に革新的な移動体験を提供し、移動自体をもっと楽しくするサービスが求められています。
+### ▶︎Problems
+  
+"There are many things that hinder the joy of travel." This problem encompasses a wide range of issues, including traffic jams, drowsy driving, repetitive travel, long journeys, and boring routes. There is a demand for services that make the journey itself more enjoyable using Web3 technology.
+   
+### ▶︎Solution
+**Music Generation Protocol & On-chain Music Storage System**　　  
+Our developed tool utilizes AI to easily generate music from photos taken with a smartphone. It leverages Web3 technologies such as smart contracts, NFTs, and wallets to allow anyone to issue music NFTs.
 
-**三菱地所**    
-「都市では人々のつながりが希薄である」。東京丸の内エリアで働く約30万人の中で、企業や組織の垣根を超えた人々のつながりを促進する新たな価値創造の機会が必要です。
-
-### ▶︎解決策
-**音楽生成プロトコル・音楽のオンチェーン保存システム**　　  
-私たちの開発したツールは、携帯電話で撮影した画像から簡単に音楽を生成するAIを利用しています。スマートコントラクト、NFT、ウォレットなど、Web3の技術を駆使し、誰でも音楽NFTを発行できるように設計されています。
-
-### ▶︎ユーザーの視点
-**Mazda**　　  
-旅行先で撮影した写真を、音楽に変換することで、新しいエンターテイメント形式を提供します。生成した音楽の類似検索することで、移動中にオリジナルのBGMを流したり、今までに行ったことのない絶景地に行きたくなるといった、「ドライブが楽しくなる仕組み作り」を提供することができます。退屈を和らげ、旅の記憶を、従来とは異なる感覚で楽しむ、新たな方法を提供します。さらに、これは通勤や通学など日常の移動においても、マンネリ化を打破し、より楽しい体験へと変える可能性を秘めています。
-
-**三菱地所**　　  
-絵画を音楽に変換し、年齢や性別・人種などを超えて人々が集う場所を創出するアプローチは、新しいアートの形を通じて社会的交流を促進し、コミュニティの活性化に寄与します。このプロセスは、芸術を感じる新たな手法を提供し、異なる背景を持つ人々が、共有の興味を通じてつながる機会を生み出します。このような革新的なアートの展示は、人々を物理的に集めるだけではなく、デジタル化が進む現代においても新しい形のコミュニケーションを生み出し、文化的多様性の理解を深める効果があります。
-
-### ▶︎技術的なチャレンジ
-**No Cloud All dApps**　　  
-**分散型ストレージのIPFSと分散型コンピューティングのBacalhau**を活用し、Cloud System（AWS、GCP、Azure）を使用せずにGenerative AIを実装しました。
+### ▶︎Technical Challenges
+**No Cloud, All dApps**　　  
+Generative AI is implemented without using cloud systems like AWS, GCP, or Azure, by leveraging decentralized storage via IPFS and decentralized computing with Bacalhau.
 <img width="995" alt="スクリーンショット 2023-11-19 15 16 27" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/1245761b-7f1d-4a83-b505-44e0102a3a07">
 
-**音楽データをOnChainに保存**　　  
-音楽Wavデータをスペクトラムの画像データに変換し、Numpy配列、バイト列、ヘキサデシマル文字列を用いて音楽データをオンチェーンに保存する機能を実装しました。
+**On-chain Music Data Storage**　　  
+We converted music WAV data to spectrogram images and used Numpy arrays, byte sequences, and hexadecimal strings to store the music data on-chain.
 <img width="876" alt="スクリーンショット 2023-11-19 15 16 53" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/af792ae3-03d9-40b2-b2b3-bca719fd653f">
 
 ### ▶︎Creativity 
-**Banana SDKの利用**    
-MetaMaskのWallterを持っていなくても、一般ユーザーが利用できる仕組みにしました。    
+**Using the Banana SDK**    
+We designed a mechanism that allows general users to use the system even without a MetaMask wallet.  
 
-**生成AIのオープンプラットフォーム**        
-生成AIのモデルや画像Input＆音楽OutPutの情報もすべて公開されているので、生成条件についての情報を共有することができ、分析や研究の用途としても利用も可能です。   
+**Open Generative AI Platform**        
+All information about the generative AI model and image-to-music generation is publicly available. This allows users to share conditions for generation and utilize the system for analysis or research purposes.  
 
 ### ◎TechStack
 
