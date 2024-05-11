@@ -9,7 +9,7 @@ ChaChaCha is a Web3 service offering a "music generation protocol and music NFT 
 </div>
 
 **Text to Music **　　  
-[音楽を再生する](https://mubert.com/render/tracks/094a91f685064b0dbe1f43cb8995c063)
+[Play Music](https://mubert.com/render/tracks/094a91f685064b0dbe1f43cb8995c063)
 
 ### ▶︎Problems
   
