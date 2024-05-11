@@ -22,16 +22,13 @@ Our developed tool utilizes AI to easily generate music from photos taken with a
 ### ▶︎Technical Challenges
 **No Cloud, All dApps**　　  
 Generative AI is implemented without using cloud systems like AWS, GCP, or Azure, by leveraging decentralized storage via IPFS and decentralized computing with Bacalhau.
-<img width="995" alt="スクリーンショット 2023-11-19 15 16 27" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/1245761b-7f1d-4a83-b505-44e0102a3a07">
+<img width="992" alt="スクリーンショット 2024-05-11 15 58 13" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/073c2619-38c2-44af-88bd-169155e6ed10">
 
 **On-chain Music Data Storage**　　  
 We converted music WAV data to spectrogram images and used Numpy arrays, byte sequences, and hexadecimal strings to store the music data on-chain.
 <img width="876" alt="スクリーンショット 2023-11-19 15 16 53" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/af792ae3-03d9-40b2-b2b3-bca719fd653f">
 
 ### ▶︎Creativity 
-**Using the Banana SDK**    
-We designed a mechanism that allows general users to use the system even without a MetaMask wallet.  
-
 **Open Generative AI Platform**        
 All information about the generative AI model and image-to-music generation is publicly available. This allows users to share conditions for generation and utilize the system for analysis or research purposes.  
 
