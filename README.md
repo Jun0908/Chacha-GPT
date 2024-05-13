@@ -49,5 +49,5 @@ All information about the generative AI model and image-to-music generation is p
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
 | Shibuya Testnet        | [0xe954ea332AB52700C7291B548c93ABA22fCd8409](https://shibuya.subscan.io/account/0xe954ea332AB52700C7291B548c93ABA22fCd8409) |
-| Manta Testnet    | [0xD767A205Bd71b72919273101dEd72068f49CF51F](https://pacific-explorer.sepolia-testnet.manta.network/address/0xD767A205Bd71b72919273101dEd72068f49CF51F)) |
+| Manta Testnet    | [0xD767A205Bd71b72919273101dEd72068f49CF51F](https://pacific-explorer.sepolia-testnet.manta.network/address/0xD767A205Bd71b72919273101dEd72068f49CF51F)|
 
