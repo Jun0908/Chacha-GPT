@@ -22,7 +22,7 @@ Our developed tool utilizes AI to easily generate music from photos taken with a
 ### ▶︎Technical Challenges
 **No Cloud, All dApps**　　  
 Generative AI is implemented without using cloud systems like AWS, GCP, or Azure, by leveraging decentralized storage via IPFS and decentralized computing with Bacalhau.
-<img width="992" alt="スクリーンショット 2024-05-11 15 58 13" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/073c2619-38c2-44af-88bd-169155e6ed10">
+<img width="992" alt="スクリーンショット 2024-05-17 9 41 09" src="https://github.com/Jun0908/Chacha-GPT/assets/31527310/15853270-25c4-40cf-98b8-469b8b339ce6">
 
 **On-chain Music Data Storage**　　  
 We converted music WAV data to spectrogram images and used Numpy arrays, byte sequences, and hexadecimal strings to store the music data on-chain.
@@ -36,11 +36,10 @@ All information about the generative AI model and image-to-music generation is p
 
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
-| Pitch Movie     |                                     [https://youtu.be/XpNz4fmwth4](https://www.youtube.com/watch?v=-fRZuS5v80M) |
 | Demo Movie      |                                      [https://youtu.be/zmENJzrxZRw](https://www.youtube.com/watch?v=0oHdkLbcIxo)|
 | Pitch Doc    |   [chachacha-presentation](https://www.canva.com/design/DAF0lv7bab0/lUwJe3yP5UTyCEDb0UN5nA/edit?utm_content=DAF0lv7bab0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
 | Demo Site     |                                 [chachacha-demo](https://next-app-umber-kappa.vercel.app/) | 
-| Contract   | [chachacha-contracts](https://github.com/Jun0908/Chacha-GPT/tree/main/hardhat) |
+| Contract   | [chachacha-contracts](https://github.com/Jun0908/Chacha-GPT/tree/main/contract) |
 | Frontend |         [chachacha-front](https://github.com/Jun0908/Chacha-GPT/tree/main/next-app) |
 | Garally　　 |         [chachacha-garally](https://3d-image-to-music.vercel.app/) |
 
@@ -48,6 +47,6 @@ All information about the generative AI model and image-to-music generation is p
 
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
-| Shibuya Testnet        | [0xe954ea332AB52700C7291B548c93ABA22fCd8409](https://shibuya.subscan.io/account/0xe954ea332AB52700C7291B548c93ABA22fCd8409) |
 | Manta Testnet    | [0xD767A205Bd71b72919273101dEd72068f49CF51F](https://pacific-explorer.sepolia-testnet.manta.network/address/0xD767A205Bd71b72919273101dEd72068f49CF51F)|
+| zkSync Testnet    | [0xC502e62C2Dc0686044572465A653CdF81Ca15A48]([https://pacific-explorer.sepolia-testnet.manta.network/address/0xD767A205Bd71b72919273101dEd72068f49CF51F](https://sepolia.explorer.zksync.io/address/0xC502e62C2Dc0686044572465A653CdF81Ca15A48#contract))|
 
