@@ -48,5 +48,5 @@ All information about the generative AI model and image-to-music generation is p
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
 | Manta Testnet    | [0xD767A205Bd71b72919273101dEd72068f49CF51F](https://pacific-explorer.sepolia-testnet.manta.network/address/0xD767A205Bd71b72919273101dEd72068f49CF51F)|
-| zkSync Testnet    | [0xC502e62C2Dc0686044572465A653CdF81Ca15A48]([https://pacific-explorer.sepolia-testnet.manta.network/address/0xD767A205Bd71b72919273101dEd72068f49CF51F](https://sepolia.explorer.zksync.io/address/0xC502e62C2Dc0686044572465A653CdF81Ca15A48#contract))|
+| zkSync Testnet    | [0xC502e62C2Dc0686044572465A653CdF81Ca15A48](https://sepolia.explorer.zksync.io/address/0xC502e62C2Dc0686044572465A653CdF81Ca15A48#contract))|
 
