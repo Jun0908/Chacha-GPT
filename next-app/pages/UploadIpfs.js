@@ -98,7 +98,7 @@ function UploadFile() {
           ref={imageInputRef} 
         />
         {imageSrc && <img src={imageSrc} alt="Uploaded content" style={{ display: 'block', margin: '10px auto', width: '200px', height: '200px' }} />}
-        {ipfsImageCid && <p>画像 CID: {ipfsImageCid}</p>}
+        {ipfsImageCid && <p>Image CID: {ipfsImageCid}</p>}
       </div>
   
       <div style={{ marginBottom: '20px' }}>
@@ -114,7 +114,7 @@ function UploadFile() {
         {musicSrc && <audio controls src={musicSrc} style={{ display: 'block', margin: '10px auto' }} />}
         {ipfsMusicCid && (
           <div>
-            <p>音楽 CID: {ipfsMusicCid}</p>
+            <p>Music CID: {ipfsMusicCid}</p>
           </div>
         )}
       </div>
@@ -122,20 +122,20 @@ function UploadFile() {
       {ipfsImageCid && ipfsMusicCid && (
         <div style={{ marginBottom: '20px', border: '2px solid black', padding: '5px' }}>
           <button onClick={mintNFT} style={{ border: 'none', background: 'none' }}>
-            NFTをミントする
+            Mint NFT
           </button>
         </div>
       )}
   
       <div style={{ marginBottom: '20px' }}>
         {mintHash && (
-          <p>ミント完了！トランザクションハッシュ: {mintHash}</p>
+          <p>Mint completed! Transaction hash: {mintHash}</p>
         )}
       </div>
       {ipfsImageCid && ipfsMusicCid && (
       <div style={{ marginBottom: '20px', border: '2px solid black', padding: '5px' }}>
         <button onClick={handleGalleryButton} style={{ border: 'none', background: 'none' }}>
-          Galleryへ
+          Gallery
         </button>
       </div>
       )}

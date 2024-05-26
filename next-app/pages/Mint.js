@@ -105,7 +105,7 @@ function Mint() {
             type="text"
             value={cid}
             onChange={(e) => setCid(e.target.value)}
-            placeholder="CIDを入力"
+            placeholder="Enter CID"
           />
           <button onClick={handleSubmit}>CID 取得</button>
         </div>
@@ -117,7 +117,7 @@ function Mint() {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="NFTの名前"
+            placeholder="NFT name"
           />
           <button onClick={handleMint}>ミント</button>
         </div>

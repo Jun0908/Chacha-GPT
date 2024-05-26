@@ -33,26 +33,26 @@ return (
     <div style={styles.content}>
         <section style={styles.section} id="garalley">
             <h2 style={styles.sectionHeader}>Garalley</h2>
-            <p style={styles.paragraph}>これまでに作成した画像と音楽のセットを3Dで閲覧できます。</p>
-            <a href="https://3d-image-to-music.vercel.app/" style={styles.link}>Garalleyを見る</a>
+            <p style={styles.paragraph}>You can view the sets of images and music you have created so far in 3D."</p>
+            <a href="https://3d-image-to-music.vercel.app/" style={styles.link}>Go to Garalley</a>
         </section>
 
         <section style={styles.section} id="uploadipfs">
             <h2 style={styles.sectionHeader}>UploadIpfs</h2>
-            <p style={styles.paragraph}>画像と音楽をIPFSにアップロードし、CID（コンテンツ識別子）を取得できます。</p>
-            <a href="UploadIpfs" style={styles.link}>IPFSにアップロード</a>
+            <p style={styles.paragraph}>You can upload images and music to IPFS and obtain a CID (Content Identifier).</p>
+            <a href="UploadIpfs" style={styles.link}>Upload to IPFS</a>
         </section>
 
         <section style={styles.section} id="musicgen">
             <h2 style={styles.sectionHeader}>MusicGen</h2>
-            <p style={styles.paragraph}>テキストから画像、画像から音楽への変換が可能です。</p>
-            <a href="MusicGen" style={styles.link}>MusicGenを使う</a>
+            <p style={styles.paragraph}>Conversion from text to image and from image to music is possible.</p>
+            <a href="MusicGen" style={styles.link}>MusicGen</a>
         </section>
 
         <section style={styles.section} id="musicmint">
             <h2 style={styles.sectionHeader}>MusicMint</h2>
             <p style={styles.paragraph}>Music Converter APIを使用して音楽を文字列に変換し、オンチェーンでミントできます。</p>
-            <a href="Mint" style={styles.link}>MusicMintでミントする</a>
+            <a href="Mint" style={styles.link}>MusicMint</a>
         </section>
     </div>
   );

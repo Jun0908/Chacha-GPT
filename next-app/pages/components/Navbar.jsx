@@ -10,7 +10,7 @@ function Navbar() {
         {/* ロゴ */}
         <Box display="flex" alignItems="center">
           <Image src="logo.png" alt="Logo" width={50} height={50} />
-          <Text ml={3} fontSize="xl" fontWeight="bold">ChaChaCha</Text>
+          <Text ml={3} fontSize="xl" fontWeight="bold">ChaChaGPT</Text>
         </Box>
 
         {/* リンク */}

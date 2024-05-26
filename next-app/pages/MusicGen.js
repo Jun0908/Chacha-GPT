@@ -108,7 +108,7 @@ function MusicGen() {
                 style={styles.promptInput}
                 value={prompt} 
                 onChange={(e) => setPrompt(e.target.value)} 
-                placeholder="画像生成のテキストを入力"
+                placeholder="Enter text for image generation"
             />
             <button style={styles.submitButton} onClick={onSubmitImageGen}>画像を生成</button>
         </div>
