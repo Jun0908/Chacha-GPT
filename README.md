@@ -37,7 +37,7 @@ All information about the generative AI model and image-to-music generation is p
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
 | Demo Movie      |                                      [https://youtu.be/zmENJzrxZRw](https://www.youtube.com/watch?v=0oHdkLbcIxo)|
-| Pitch Doc    |   [chachacha-presentation](https://www.canva.com/design/DAF0lv7bab0/lUwJe3yP5UTyCEDb0UN5nA/edit?utm_content=DAF0lv7bab0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
+| Pitch Doc    |   [chachacha-presentation](https://www.canva.com/design/DAGGwRbt5IY/1LIg2Vl4maaYLQfox-Q6Sg/edit?utm_content=DAGGwRbt5IY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
 | Demo Site     |                                 [chachacha-demo](https://next-app-umber-kappa.vercel.app/) | 
 | Contract   | [chachacha-contracts](https://github.com/Jun0908/Chacha-GPT/tree/main/contract) |
 | Frontend |         [chachacha-front](https://github.com/Jun0908/Chacha-GPT/tree/main/next-app) |
