@@ -1,33 +1,51 @@
 import { exec } from 'child_process';
 import fs from 'fs';
 import path from 'path';
+import type { NextApiRequest, NextApiResponse } from 'next';
 
-export default function handler(req, res) {
+interface JobRequest extends NextApiRequest {
+  body: {
+    jobType: string;
+    prompt?: string;
+    cid?: string;
+  };
+}
+
+export default function handler(req: JobRequest, res: NextApiResponse) {
   if (req.method === 'POST') {
-    if (req.body.jobType === 'helloWorld') {
-      // Hello World ジョブの実行
-      execHelloWorldJob(res);
-    } else if (req.body.jobType === 'imageGen') {
-      // 画像生成ジョブの実行
-      execImageGenJob(req.body.prompt, res);
-    } else  if (req.body.jobType === 'musicGen') {
-      // 音楽生成ジョブの実行
-      execMusicGen(req.body.cid, res);
-    } else {
-      res.status(400).json({ message: '不正なjobTypeです' });
+    switch (req.body.jobType) {
+      case 'helloWorld':
+        execHelloWorldJob(res);
+        break;
+      case 'imageGen':
+        if (req.body.prompt) {
+          execImageGenJob(req.body.prompt, res);
+        } else {
+          res.status(400).json({ message: 'プロンプトが必要です' });
+        }
+        break;
+      case 'musicGen':
+        if (req.body.cid) {
+          execMusicGen(req.body.cid, res);
+        } else {
+          res.status(400).json({ message: 'CIDが必要です' });
+        }
+        break;
+      default:
+        res.status(400).json({ message: '不正なjobTypeです' });
     }
   } else {
     res.status(400).json({ message: 'POSTリクエストのみ受け付けます' });
   }
 }
 
-function execHelloWorldJob(res) {
+function execHelloWorldJob(res: NextApiResponse) {
   exec('bacalhau docker run ubuntu echo Hello World', (error, stdout, stderr) => {
     handleExecResponse(error, stdout, stderr, res);
   });
 }
 
-function execImageGenJob(prompt, res) {
+function execImageGenJob(prompt: string, res: NextApiResponse) {
   const command = `bacalhau docker run --gpu 1 ghcr.io/bacalhau-project/examples/stable-diffusion-gpu:0.0.1 -- python main.py --o ./outputs --p "${prompt}"`;
   exec(command, { maxBuffer: 1024 * 1024 * 10 }, (error, stdout, stderr) => {
     if (error) {
@@ -45,7 +63,7 @@ function execImageGenJob(prompt, res) {
   });
 }
 
-function execMusicGen(cid, res) {
+function execMusicGen(cid: string, res: NextApiResponse) {
   const command = `bacalhau docker run --gpu 1 jun0908/image-music-app:latest -- python3 app.py --o ./outputs --ipfs_link "${cid}"`;
   exec(command, { maxBuffer: 1024 * 1024 * 10 }, (error, stdout, stderr) => {
     if (error) {
@@ -54,7 +72,7 @@ function execMusicGen(cid, res) {
     }
 
     const cidMatch = stdout.match(/CID: (\S+)/); // CIDの抽出
-    const response = { stderr: stderr };
+    const response: { stderr: string; cid?: string } = { stderr: stderr };
     if (cidMatch && cidMatch[1]) {
       response.cid = cidMatch[1];
     }
@@ -63,14 +81,14 @@ function execMusicGen(cid, res) {
   });
 }
 
-function handleExecResponse(error, stdout, stderr, res) {
+function handleExecResponse(error: Error | null, stdout: string, stderr: string, res: NextApiResponse) {
   if (error) {
     console.error(`実行時のエラー: ${error}`);
     return res.status(500).json({ message: `エラー: ${error.message}` });
   }
 
   const jobIdMatch = stdout.match(/Job ID: (\S+)/);
-  const response = { stderr: stderr };
+  const response: { stderr: string; jobId?: string } = { stderr: stderr };
   if (jobIdMatch && jobIdMatch[1]) {
     response.jobId = jobIdMatch[1];
   }

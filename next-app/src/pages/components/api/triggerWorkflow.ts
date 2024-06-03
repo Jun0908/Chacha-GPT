@@ -1,6 +1,7 @@
 import axios from 'axios';
+import type { NextApiRequest, NextApiResponse } from 'next';
 
-export default async function handler(req, res) {
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
     const response = await axios.post(
       'https://api.github.com/repos/Jun0908/3d-image-to-music/actions/workflows/main.yml/dispatches',

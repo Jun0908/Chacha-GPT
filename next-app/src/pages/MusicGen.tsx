@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from "./components/Navbar";
 
 function MusicGen() {
     const [prompt, setPrompt] = useState('');
@@ -14,7 +15,7 @@ function MusicGen() {
         executeJob({ jobType: 'imageGen', prompt });
     };
 
-    const executeJob = async (body) => {
+    const executeJob = async (body: any) => {
         const response = await fetch('/api/execute', {
           method: 'POST',
           headers: {
@@ -56,7 +57,7 @@ function MusicGen() {
       }
     };
 
-    const styles = {
+    const styles: { [key: string]: React.CSSProperties } = {
       container: {
           display: 'flex',
           flexDirection: 'column',
@@ -101,27 +102,29 @@ function MusicGen() {
   };
 
   return (
+    
     <div style={styles.container}>
+       <Navbar />
         <div style={styles.inputArea}>
-            <button style={styles.submitButton} onClick={onSubmitHelloWorld}>Jobを実行 Hello World</button>
+            <button style={styles.submitButton} onClick={onSubmitHelloWorld}>Excute Job Hello World</button>
             <input 
                 style={styles.promptInput}
                 value={prompt} 
                 onChange={(e) => setPrompt(e.target.value)} 
                 placeholder="Enter text for image generation"
             />
-            <button style={styles.submitButton} onClick={onSubmitImageGen}>画像を生成</button>
+            <button style={styles.submitButton} onClick={onSubmitImageGen}>Generate Image</button>
         </div>
         {jobId && <p>Job ID: {jobId}</p>}
         <div style={styles.outputArea}>
             {imageSrc && <img src={imageSrc} alt="Generated Image" style={styles.generatedImage}/>}
         </div>
         <div style={styles.inputArea}>
-            <button style={styles.submitButton} onClick={onSubmitMusicGen}>音楽を生成</button>
+            <button style={styles.submitButton} onClick={onSubmitMusicGen}>Generate Music</button>
             {cid && <p>CID: {cid}</p>}
         </div>
     </div>
-);
+  );
 }
 
 export default MusicGen;
