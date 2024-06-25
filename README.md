@@ -30,7 +30,7 @@ We converted music WAV data to spectrogram images and used Numpy arrays, byte se
 
 ### ▶︎Creativity 
 **Open Generative AI Platform**        
-All information about the generative AI model and image-to-music generation is publicly available. This allows users to share conditions for generation and utilize the system for analysis or research purposes.  
+All information about the generative AI model and image-to-music generation is publicly available. This allows users to share conditions for generation and utilize the system for analysis or research purposes. While pre-trained models like those used in Deep Learning aim to improve accuracy using test data, the evaluation criteria are singular. However, it is challenging to objectively evaluate generative AI, such as in music. We aim to create pre-trained models for generative AI that encompass diversity, transparency, and copyright protection.
 
 **Implementation Status**
 
